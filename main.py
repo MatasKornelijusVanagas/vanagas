@@ -1,3 +1,7 @@
+from math import sqrt
+from math import sqrt as saknis
+import math
+
 kintamasis = 1
 kintamasis = 2
 
@@ -9,3 +13,23 @@ def funkcija():
 
 
 
+pirmas = 4
+antras = 6
+def sudetis(pirmas,antras):
+    return pirmas+antras
+
+def atimtis(pirmas, antras):
+    return pirmas-antras
+
+def daugyba(pirmas, antras):
+    return pirmas*antras
+
+def dalyba(pirmas, antras):
+    if antras == 0:
+        return "Dalyba is nulio negalima"
+    return pirmas / antras
+
+print("sudetis:", sudetis(pirmas, antras))
+print("atimtis:", atimtis(pirmas, antras))
+print("daugyba:", daugyba(pirmas, antras))
+print("dalyba:", dalyba(pirmas, antras))
