@@ -1,6 +1,5 @@
 from math import sqrt
-from math import sqrt as saknis
-import math
+from math import pow
 
 kintamasis = 1
 kintamasis = 2
@@ -28,8 +27,12 @@ def dalyba(pirmas, antras):
     if antras == 0:
         return "Dalyba is nulio negalima"
     return pirmas / antras
+    
+def pakeltilaipsniu(pirmas,antras):
+    return pow (pirmas, antras)
 
 print("sudetis:", sudetis(pirmas, antras))
 print("atimtis:", atimtis(pirmas, antras))
 print("daugyba:", daugyba(pirmas, antras))
 print("dalyba:", dalyba(pirmas, antras))
+print("pakelta:", pakelimaslaipsniu(pirmas, antras))
