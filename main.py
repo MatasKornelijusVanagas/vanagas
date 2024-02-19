@@ -2,7 +2,7 @@ from math import sqrt
 from math import pow
 
 kintamasis = 1
-kintamasis = 2
+kintamasis2 = 2
 
 def funkcija():
     print(kintamasis)
@@ -35,4 +35,4 @@ print("sudetis:", sudetis(pirmas, antras))
 print("atimtis:", atimtis(pirmas, antras))
 print("daugyba:", daugyba(pirmas, antras))
 print("dalyba:", dalyba(pirmas, antras))
-print("pakelta:", pakelimaslaipsniu(pirmas, antras))
+print("pakelta:", pakeltilaipsniu(pirmas, antras))
